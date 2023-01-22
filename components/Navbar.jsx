@@ -1,7 +1,6 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Image from 'next/image';
 import styles from '../styles';
 import { navVariants } from '../utils/motion';
 
@@ -24,14 +23,14 @@ const Navbar = () => (
         className="w-[24px] h-[24px] object-contain cursor-pointer"
       />
       <h2
-        className="font-extrabold text-[24px] leading-[30.24px] text-white"
+        className="font-extrabold text-[24px] leading-[30.24px] text-white uppercase cursor-pointer"
       >
-        METAVERSUS
+        metaversus
       </h2>
       <img
         src="/menu.svg"
         alt="menu"
-        className="w-[24px] h-[24px] object-contain"
+        className="w-[24px] h-[24px] object-contain cursor-pointer"
       />
     </div>
   </motion.nav>
